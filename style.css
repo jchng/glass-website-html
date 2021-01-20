@@ -6,7 +6,7 @@
 
 main {
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #fa003f, #6cdbeb);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@ h3 {
   left: 5%;
 }
 
-.dashboard{
+.dashboard {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -105,8 +105,8 @@ h3 {
 
 .pro img {
   position: absolute;
-  top: -10%;
-  right: 10%;
+  bottom: 10%;
+  right: 5%;
 }
 
 .pro h2 {
@@ -175,4 +175,11 @@ h3 {
   background: linear-gradient(to right top, #65dfc9, #6cdbeb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.user img, .card img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 2rem;
 }
